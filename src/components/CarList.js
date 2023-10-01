@@ -22,6 +22,12 @@ function CarList() {
       image: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80", // Replace with your image URL
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     },
+    {
+      id: 3,
+      name: "Car 4",
+      image: "https://images.unsplash.com/photo-1602034032025-47f18f22244f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80", // Replace with your image URL
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    },
     // Add more car data as needed
   ];
 
