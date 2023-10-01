@@ -1,0 +1,84 @@
+/* Style the car list container */
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style the car card */
+  .car-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    width: 300px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to car card */
+  .car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the car image */
+  .car-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Style the car details */
+  .car-details {
+    padding: 15px;
+  }
+  
+  .car-details h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .car-details p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  /* Style the Rent Now and Love React buttons */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .rent-button,
+  .love-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .rent-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .love-button {
+    background-color: transparent;
+    color: #007bff;
+  }
+  
+  /* Style the Love React count */
+  .love-count {
+    font-size: 14px;
+    color: #555555;
+  }
+  

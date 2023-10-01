@@ -21,7 +21,7 @@ body{
   justify-content:flex-start;
   align-items: center;
   border-radius: 2vh 2vh;
-  padding: 15px 20px;
+  padding: 10px 20px;
   margin: 10px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11),
   0 2px 4px rgba(0, 0, 0, 0.39);
@@ -35,7 +35,7 @@ body{
 
 /* Style the search input */
 .search-input-container input[type="text"] {
-  height: 5vh;
+  height: 4vh;
   flex-grow: 1; /* Allow the input to grow and take available space */
   padding: 5px;
   margin-right: 10px;
