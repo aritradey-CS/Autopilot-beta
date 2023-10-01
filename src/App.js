@@ -17,31 +17,36 @@ function App() {
     <div className="App">
       <header className="navbar">
         <div className="search-section">
-          <input
-            type="text"
-            placeholder="Search cars by name"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+          <div className="search-input-container">
+            <input
+              type="text"
+              placeholder="Search cars by name"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
             />
-          <button className="search-button" onClick={handleSearchClick}>
-            <i className="ri-search-line"></i>
-          </button>
+            <button className="search-button" onClick={handleSearchClick}>
+              <i className="ri-search-line"></i>
+            </button>
+          </div>
         </div>
+
         <div className="dropdowns">
-          <div className="dropdown">
+          <div className="dropdown1">
             <select id="category">
               <option value="relevance">Relevance</option>
               <option value="priceLowToHigh">Price Low to High</option>
               <option value="priceHighToLow">Price High to Low</option>
             </select>
+            <i className="ri-arrow-drop-down-line"></i>
           </div>
-          <div className="dropdown">
+          <div className="dropdown2">
             <select id="brand">
               <option value="allBrands">All Brands</option>
               <option value="audi">Audi</option>
               <option value="mercedes">Mercedes</option>
               <option value="bmw">BMW</option>
             </select>
+            <i className="ri-arrow-drop-down-line"></i>
           </div>
         </div>
       </header>

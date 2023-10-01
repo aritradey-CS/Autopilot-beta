@@ -23,7 +23,26 @@ body{
   border-radius: 2vh 2vh;
   padding: 15px 20px;
   margin: 10px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11),
+  0 2px 4px rgba(0, 0, 0, 0.39);
 }
+/* Increase the width of the search input container */
+.search-input-container {
+  display: flex;
+  align-items: center;
+  width: 30vw; /* Adjust width as needed */
+}
+
+/* Style the search input */
+.search-input-container input[type="text"] {
+  height: 5vh;
+  flex-grow: 1; /* Allow the input to grow and take available space */
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
 /* Add styles for the search button and icon */
 .search-button {
   background-color: transparent;
@@ -32,7 +51,7 @@ body{
 }
 
 .search-button i {
-  font-size: 20px;
+    font-size: 20px;
   color: #007bff;
 }
 .ri-search-line:before {
@@ -77,25 +96,75 @@ button {
 }
 
 /* Style the individual dropdowns */
-.dropdown {
+.dropdown1 {
   position: relative; /* To create a stacking context for z-index */
+  display: inline-block; /* Display as inline block to allow elements to be side by side */
+  margin-right: 20px; /* Add some spacing between dropdowns */
 }
 
-/* Style the select element (dropdown) */
-.dropdown select {
-  appearance: none; /* Remove default appearance (arrow) */
-  background-color: transparent; /* Transparent background */
-  border: none; /* Remove border */
-  font-family: Arial, sans-serif; /* Specify font family */
-  font-size: 16px; /* Specify font size */
-  color: #000000; /* Text color */
-  padding: 5px 10px; /* Add padding */
-  cursor: pointer; /* Show pointer cursor on hover */
-  outline: none; /* Remove focus outline */
-  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+/* Style the select element */
+.dropdown1 select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
 }
 
-/* Style the select element on hover */
-#category:hover select {
-  background-color: #cf0b0b; /* Change background color on hover */
+/* Style the arrow icon */
+.dropdown1 i {
+  position: absolute;
+  top: 50%; /* Vertically center the icon */
+  right: 35px; /* Position to the right side */
+  transform: translateY(-50%); /* Adjust vertical positioning */
+  font-size: 20px;
+  color: #000000; /* Icon color */
+  cursor: pointer;
+}
+
+/* Apply hover effect to option values */
+.dropdown select option:hover {
+  background-color: #cf0b0b;
+}
+/* Style the individual dropdowns */
+.dropdown2 {
+  position: relative; /* To create a stacking context for z-index */
+  display: inline-block; /* Display as inline block to allow elements to be side by side */
+ left: 35%; 
+  margin-right: 20px; /* Add some spacing between dropdowns */
+}
+
+/* Style the select element */
+.dropdown2 select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the arrow icon */
+.dropdown2 i {
+  position: absolute;
+  top: 50%; /* Vertically center the icon */
+  right: -15px; /* Position to the right side */
+  transform: translateY(-50%); /* Adjust vertical positioning */
+  font-size: 20px;
+  color: #000000; /* Icon color */
+  cursor: pointer;
+}
+
+/* Apply hover effect to option values */
+.dropdown2 select option:hover {
+  background-color: #cf0b0b;
 }
