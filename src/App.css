@@ -15,7 +15,7 @@ body{
 
 /* Style the navigation bar */
 .navbar {
-  background-color: #333;
+  background-color: #007bff52;
   color: white;
   display: flex;
   justify-content:flex-start;
@@ -49,6 +49,9 @@ body{
   width: 20vw;
 }
 
+
+
+
 /* Style the search input */
 input[type="text"] {
   padding: 5px;
@@ -75,12 +78,24 @@ button {
 
 /* Style the individual dropdowns */
 .dropdown {
-  margin-left: 20px;
+  position: relative; /* To create a stacking context for z-index */
 }
 
-/* Style the label text for dropdowns */
-label {
-  font-weight: bold;
-  
-  margin-right: 5px;
+/* Style the select element (dropdown) */
+.dropdown select {
+  appearance: none; /* Remove default appearance (arrow) */
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  font-family: Arial, sans-serif; /* Specify font family */
+  font-size: 16px; /* Specify font size */
+  color: #000000; /* Text color */
+  padding: 5px 10px; /* Add padding */
+  cursor: pointer; /* Show pointer cursor on hover */
+  outline: none; /* Remove focus outline */
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Style the select element on hover */
+#category:hover select {
+  background-color: #cf0b0b; /* Change background color on hover */
 }
