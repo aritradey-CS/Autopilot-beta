@@ -30,6 +30,7 @@
   .car-image {
     height: 200px;
     border-radius: 10%;
+    margin: 0.5vw 0.5vw;
     background-size: cover;
     background-position: center;
   }
