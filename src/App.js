@@ -1,6 +1,6 @@
 // src/components/App.js
 import React from "react";
-import carsData from "./components/carsData"; // Import your mock data here
+import carsData from "./carsData"; // Import your mock data here
 
 function App() {
   // Your code for managing state, pagination, and search will go here
