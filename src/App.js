@@ -1,25 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import CarList from "./components/CarList"; // Use the correct letter casing
-import CarDetails from "./components/CarDetails"; // Correct import path for CarDetails
-import "./App.css"; // Import your CSS file
+import CarList from "./components/CarList";
+import CarDetails from "./components/CarDetails";
+import "./App.css";
 
 function App() {
-  // Your state and logic here
+  const [searchTerm, setSearchTerm] = useState(""); // State to store the search term
+
+  const handleSearchClick = () => {
+    // Perform the search action here using the searchTerm state
+    // For example, you can console.log the searchTerm for now
+    console.log("Search term:", searchTerm);
+  };
 
   return (
     <div className="App">
       <header className="navbar">
-        
         <div className="search-section">
-          {/* Search input and button */}
-          <input type="text" placeholder="Search cars by name" />
+          <input
+            type="text"
+            placeholder="Search cars by name"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            />
+          <button className="search-button" onClick={handleSearchClick}>
+            <i className="ri-search-line"></i>
+          </button>
         </div>
-          <button>Search</button>
         <div className="dropdowns">
-          {/* Dropdowns for Category and Brand */}
           <div className="dropdown">
-            
             <select id="category">
               <option value="relevance">Relevance</option>
               <option value="priceLowToHigh">Price Low to High</option>
@@ -27,7 +36,6 @@ function App() {
             </select>
           </div>
           <div className="dropdown">
-            
             <select id="brand">
               <option value="allBrands">All Brands</option>
               <option value="audi">Audi</option>
@@ -36,15 +44,15 @@ function App() {
             </select>
           </div>
         </div>
-        </header>
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route exact path="/" element={<CarList />} />
-          <Route path="/car/:id" element={<CarDetails />} /> {/* Optional */}
-        </Routes>
-      </div>
-    </Router>
+      </header>
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route exact path="/" element={<CarList />} />
+            <Route path="/car/:id" element={<CarDetails />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }
