@@ -1,14 +1,20 @@
-// src/components/App.js
 import React from "react";
-import carsData from "./carsData"; // Import your mock data here
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import CarList from "./components/CarList"; // Use the correct letter casing
+import CarDetails from "./components/CarDetails"; // Correct import path for CarDetails
 
 function App() {
-  // Your code for managing state, pagination, and search will go here
+  // Your state and logic here
 
   return (
-    <div className="App">
-      {/* Your components go here */}
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<CarList />} />
+          <Route path="/car/:id" element={<CarDetails />} /> {/* Optional */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
