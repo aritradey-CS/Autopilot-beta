@@ -3,7 +3,7 @@ import "./CarList.css"; // Import your CSS file for styling
 import carsData from "./carsData.json";
 
 function CarList() {
-  // Define the number of cars to display per page
+  
   const carsPerPage = 6;
 
   // Initialize the current page state
@@ -68,10 +68,10 @@ function CarList() {
             <div className="car-footer">
               <div className="price">{car.pricePerMonth} / month</div>
               <div className="buttons">
+                <button className="rent-button">Rent Now</button>
                 <button className="love-button">
                   <i class="ri-heart-3-fill"></i> ({car.loveCount})
                 </button>
-                <button className="rent-button">Rent Now</button>
               </div>
             </div>
           </div>

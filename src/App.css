@@ -49,7 +49,9 @@ body{
   background-color: transparent;
   border: none;
   cursor: pointer;
+
 }
+
 
 .search-button i {
     font-size: 20px;
@@ -59,10 +61,7 @@ body{
   content: "\f0d1";
   margin-left: -8vw !important;
 }
-/* Add more styles as needed */
 
-
-/* Style the search section */
 .search-section {
   display: flex;
   align-items: center;
