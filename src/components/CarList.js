@@ -16,13 +16,16 @@ function CarList() {
               <h2>{car.name}</h2>
               <h3>{car.year}</h3>
             </div>
-            <p>{car.description}</p>
-            <ul>
-              <li>Capacity: {car.passengerCapacity}</li>
-              <li>Mileage: {car.mileage}</li>
-              <li>Transmission: {car.transmission}</li>
-              <li>Fuel Type: {car.fuelType}</li>
-            </ul>
+            
+          <div className="car-config">
+            <div className="config">Capacity: {car.passengerCapacity}</div>
+            <div className="config">Mileage: {car.mileage}</div>
+            <div className="config">Transmission: {car.transmission}</div>
+            <div className="config">Fuel Type: {car.fuelType}</div>
+
+          </div>
+
+                    
             <div className="car-footer">
               <div className="price">
                 {car.pricePerMonth} / month
