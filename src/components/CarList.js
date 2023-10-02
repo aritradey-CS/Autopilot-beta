@@ -31,11 +31,12 @@ function CarList() {
                 {car.pricePerMonth} / month
               </div>
               <div className="buttons">
-                <button className="love-button"><i class="ri-heart-3-fill"></i>({car.loveCount})
-                              <button className="rent-button">Rent Now</button>
+                <button className="love-button"> 
+               <button className="rent-button">Rent Now</button>
                 </button>
               </div>
             </div>
+            <i class="ri-heart-3-fill"></i> ({car.loveCount})
           </div>
         </div>
       ))}
