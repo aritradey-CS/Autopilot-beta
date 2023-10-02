@@ -129,13 +129,15 @@
   display: flex; /* Add this line to allow margin to work */
   align-items: center; /* Add this line to vertically center the icon and text */
   margin-left: 10px; /* Adjust the margin as needed */
+  
 }
 .ri-heart-3-fill{
   padding-right: 2px;
   margin-left: 14px;
-
+  
   color: #ff008c;
   font-size: 30px;
+  
  
 }
 
