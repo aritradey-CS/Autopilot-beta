@@ -83,7 +83,7 @@ function CarList() {
           onClick={handlePreviousPage}
           disabled={currentPage === 1} // Disable the previous button on the first page
         >
-          Previous
+          <i class="ri-arrow-left-circle-fill"></i>
         </button>
         {Array.from({ length: totalPages }, (_, i) => (
           <button
@@ -98,7 +98,7 @@ function CarList() {
           onClick={handleNextPage}
           disabled={currentPage === totalPages} // Disable the next button on the last page
         >
-          Next
+          <i class="ri-arrow-right-circle-fill"></i>  
         </button>
       </div>
     </div>
