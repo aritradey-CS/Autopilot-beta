@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Car 1",
     "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2021,
     "passengerCapacity": 4,
     "mileage": "21 mpg",
@@ -16,7 +16,7 @@
     "id": 2,
     "name": "Car 2",
     "image": "https://images.unsplash.com/photo-1563339018-51d1ef22f402?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2001,
     "passengerCapacity": 3,
     "mileage": "17 mpg",
@@ -29,7 +29,7 @@
     "id": 3,
     "name": "Car 3",
     "image": "https://images.unsplash.com/photo-1623659248894-1a0272243054?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1505&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2010,
     "passengerCapacity": 6,
     "mileage": "15 mpg",
@@ -42,7 +42,7 @@
     "id": 4,
     "name": "Car 4",
     "image": "https://images.unsplash.com/photo-1490902931801-d6f80ca94fe4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2022,
     "passengerCapacity": 2,
     "mileage": "20 mpg",
@@ -55,7 +55,7 @@
     "id": 5,
     "name": "Car 5",
     "image": "https://cdn.pixabay.com/photo/2017/03/27/14/56/auto-2179220_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2001,
     "passengerCapacity": 5,
     "mileage": "29 mpg",
@@ -68,7 +68,7 @@
     "id": 6,
     "name": "Car 6",
     "image": "https://cdn.pixabay.com/photo/2016/04/19/06/03/mercedes-1338063_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2020,
     "passengerCapacity": 3,
     "mileage": "16 mpg",
@@ -81,7 +81,7 @@
     "id": 7,
     "name": "Car 7",
     "image": "https://cdn.pixabay.com/photo/2016/07/09/21/47/car-1506922_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2019,
     "passengerCapacity": 7,
     "mileage": "16 mpg",
@@ -94,7 +94,7 @@
     "id": 8,
     "name": "Car 8",
     "image": "https://cdn.pixabay.com/photo/2017/11/22/16/41/bmw-m4-2970890_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2019,
     "passengerCapacity": 4,
     "mileage": "18 mpg",
@@ -107,7 +107,7 @@
     "id": 9,
     "name": "Car 9",
     "image": "https://cdn.pixabay.com/photo/2016/04/24/10/48/sports-car-1349139_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2005,
     "passengerCapacity": 7,
     "mileage": "24 mpg",
@@ -120,7 +120,7 @@
     "id": 10,
     "name": "Car 10",
     "image": "https://cdn.pixabay.com/photo/2016/05/02/23/44/bmw-1368280_1280.jpg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2011,
     "passengerCapacity": 7,
     "mileage": "17 mpg",
@@ -133,7 +133,7 @@
     "id": 11,
     "name": "Car 11",
     "image": "https://images.unsplash.com/photo-1555652736-e92021d28a10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2004,
     "passengerCapacity": 4,
     "mileage": "15 mpg",
@@ -146,7 +146,7 @@
     "id": 12,
     "name": "Car 12",
     "image": "https://images.unsplash.com/photo-1616549972169-0a0d961c9905?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2010,
     "passengerCapacity": 6,
     "mileage": "22 mpg",
@@ -159,7 +159,7 @@
     "id": 13,
     "name": "Car 13",
     "image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1515&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2003,
     "passengerCapacity": 2,
     "mileage": "24 mpg",
@@ -172,7 +172,7 @@
     "id": 14,
     "name": "Car 14",
     "image": "https://images.unsplash.com/photo-1610809376778-928ee2c3a561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2023,
     "passengerCapacity": 3,
     "mileage": "21 mpg",
@@ -185,7 +185,7 @@
     "id": 15,
     "name": "Car 15",
     "image": "https://images.unsplash.com/photo-1528659960408-6afcdde40a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1633&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2001,
     "passengerCapacity": 2,
     "mileage": "21 mpg",
@@ -198,7 +198,7 @@
     "id": 16,
     "name": "Car 16",
     "image": "https://images.unsplash.com/photo-1587893076609-9a8b6cdb1062?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2011,
     "passengerCapacity": 5,
     "mileage": "19 mpg",
@@ -211,7 +211,7 @@
     "id": 17,
     "name": "Car 17",
     "image": "https://images.unsplash.com/photo-1588568913041-b72063097be7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2006,
     "passengerCapacity": 6,
     "mileage": "29 mpg",
@@ -224,7 +224,7 @@
     "id": 18,
     "name": "Car 18",
     "image": "https://images.unsplash.com/photo-1612639110425-3c5b869a72e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2008,
     "passengerCapacity": 7,
     "mileage": "23 mpg",
@@ -237,7 +237,7 @@
     "id": 19,
     "name": "Car 19",
     "image": "https://images.unsplash.com/photo/19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2011,
     "passengerCapacity": 5,
     "mileage": "29 mpg",
@@ -250,7 +250,7 @@
     "id": 20,
     "name": "Car 20",
     "image": "https://images.unsplash.com/photo/20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2009,
     "passengerCapacity": 3,
     "mileage": "20 mpg",
@@ -263,7 +263,7 @@
     "id": 21,
     "name": "Car 21",
     "image": "https://images.unsplash.com/photo/21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2011,
     "passengerCapacity": 7,
     "mileage": "20 mpg",
@@ -276,7 +276,7 @@
     "id": 22,
     "name": "Car 22",
     "image": "https://images.unsplash.com/photo/22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2010,
     "passengerCapacity": 4,
     "mileage": "21 mpg",
@@ -289,7 +289,7 @@
     "id": 23,
     "name": "Car 23",
     "image": "https://images.unsplash.com/photo/23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2018,
     "passengerCapacity": 3,
     "mileage": "18 mpg",
@@ -302,7 +302,7 @@
     "id": 24,
     "name": "Car 24",
     "image": "https://images.unsplash.com/photo/24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2020,
     "passengerCapacity": 3,
     "mileage": "21 mpg",
@@ -315,7 +315,7 @@
     "id": 25,
     "name": "Car 25",
     "image": "https://images.unsplash.com/photo/25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2022,
     "passengerCapacity": 2,
     "mileage": "16 mpg",
@@ -328,7 +328,7 @@
     "id": 26,
     "name": "Car 26",
     "image": "https://images.unsplash.com/photo/26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2002,
     "passengerCapacity": 6,
     "mileage": "19 mpg",
@@ -341,7 +341,7 @@
     "id": 27,
     "name": "Car 27",
     "image": "https://images.unsplash.com/photo/27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2015,
     "passengerCapacity": 6,
     "mileage": "15 mpg",
@@ -354,7 +354,7 @@
     "id": 28,
     "name": "Car 28",
     "image": "https://images.unsplash.com/photo/28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2006,
     "passengerCapacity": 4,
     "mileage": "16 mpg",
@@ -367,7 +367,7 @@
     "id": 29,
     "name": "Car 29",
     "image": "https://images.unsplash.com/photo/29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2015,
     "passengerCapacity": 6,
     "mileage": "23 mpg",
@@ -380,7 +380,7 @@
     "id": 30,
     "name": "Car 30",
     "image": "https://images.unsplash.com/photo/30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2020,
     "passengerCapacity": 2,
     "mileage": "19 mpg",
@@ -393,7 +393,7 @@
     "id": 31,
     "name": "Car 31",
     "image": "https://images.unsplash.com/photo/31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2018,
     "passengerCapacity": 7,
     "mileage": "25 mpg",
@@ -406,7 +406,7 @@
     "id": 32,
     "name": "Car 32",
     "image": "https://images.unsplash.com/photo/32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2014,
     "passengerCapacity": 7,
     "mileage": "18 mpg",
@@ -419,7 +419,7 @@
     "id": 33,
     "name": "Car 33",
     "image": "https://images.unsplash.com/photo/33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2007,
     "passengerCapacity": 6,
     "mileage": "15 mpg",
@@ -432,7 +432,7 @@
     "id": 34,
     "name": "Car 34",
     "image": "https://images.unsplash.com/photo/34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2000,
     "passengerCapacity": 5,
     "mileage": "15 mpg",
@@ -445,7 +445,7 @@
     "id": 35,
     "name": "Car 35",
     "image": "https://images.unsplash.com/photo/35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2011,
     "passengerCapacity": 5,
     "mileage": "19 mpg",
@@ -458,7 +458,7 @@
     "id": 36,
     "name": "Car 36",
     "image": "https://images.unsplash.com/photo/36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2021,
     "passengerCapacity": 6,
     "mileage": "17 mpg",
@@ -471,7 +471,7 @@
     "id": 37,
     "name": "Car 37",
     "image": "https://images.unsplash.com/photo/37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2014,
     "passengerCapacity": 4,
     "mileage": "19 mpg",
@@ -484,7 +484,7 @@
     "id": 38,
     "name": "Car 38",
     "image": "https://images.unsplash.com/photo/38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2002,
     "passengerCapacity": 6,
     "mileage": "24 mpg",
@@ -497,7 +497,7 @@
     "id": 39,
     "name": "Car 39",
     "image": "https://images.unsplash.com/photo/39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2005,
     "passengerCapacity": 7,
     "mileage": "20 mpg",
@@ -510,7 +510,7 @@
     "id": 40,
     "name": "Car 40",
     "image": "https://images.unsplash.com/photo/40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2019,
     "passengerCapacity": 4,
     "mileage": "15 mpg",
@@ -523,7 +523,7 @@
     "id": 41,
     "name": "Car 41",
     "image": "https://images.unsplash.com/photo/41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2017,
     "passengerCapacity": 2,
     "mileage": "30 mpg",
@@ -536,7 +536,7 @@
     "id": 42,
     "name": "Car 42",
     "image": "https://images.unsplash.com/photo/42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2018,
     "passengerCapacity": 3,
     "mileage": "28 mpg",
@@ -549,7 +549,7 @@
     "id": 43,
     "name": "Car 43",
     "image": "https://images.unsplash.com/photo/43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2023,
     "passengerCapacity": 7,
     "mileage": "22 mpg",
@@ -562,7 +562,7 @@
     "id": 44,
     "name": "Car 44",
     "image": "https://images.unsplash.com/photo/44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2013,
     "passengerCapacity": 3,
     "mileage": "23 mpg",
@@ -575,7 +575,7 @@
     "id": 45,
     "name": "Car 45",
     "image": "https://images.unsplash.com/photo/45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2010,
     "passengerCapacity": 6,
     "mileage": "19 mpg",
@@ -588,7 +588,7 @@
     "id": 46,
     "name": "Car 46",
     "image": "https://images.unsplash.com/photo/46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2009,
     "passengerCapacity": 5,
     "mileage": "26 mpg",
@@ -601,7 +601,7 @@
     "id": 47,
     "name": "Car 47",
     "image": "https://images.unsplash.com/photo/47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2013,
     "passengerCapacity": 6,
     "mileage": "25 mpg",
@@ -614,7 +614,7 @@
     "id": 48,
     "name": "Car 48",
     "image": "https://images.unsplash.com/photo/48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2000,
     "passengerCapacity": 2,
     "mileage": "24 mpg",
@@ -627,7 +627,7 @@
     "id": 49,
     "name": "Car 49",
     "image": "https://images.unsplash.com/photo/49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2022,
     "passengerCapacity": 3,
     "mileage": "24 mpg",
@@ -640,7 +640,7 @@
     "id": 50,
     "name": "Car 50",
     "image": "https://images.unsplash.com/photo/50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+     
     "year": 2015,
     "passengerCapacity": 7,
     "mileage": "28 mpg",

@@ -10,12 +10,12 @@
   /* Style the car card */
   .car-card {
     background-color: #ffffff;
-    border-radius: 1%   ;
+    border-radius: 5%   ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    height: 50vh;
-    width: 300px;
+    height: 70vh;
+    width: 350px;
     margin: 10px;
     cursor: pointer;
   }
@@ -29,7 +29,7 @@
   /* Style the car image */
   .car-image {
     height: 200px;
-    border-radius: 10%;
+    border-radius: 5%;
     margin: 0.5vw 0.5vw;
     background-size: cover;
     background-position: center;
@@ -40,25 +40,41 @@
     padding: 15px;
   }
   
-  .car-details h4 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: bold;
+  .car-header{
+display: flex;
+align-items: center;
+justify-content: space-between;
   }
+  .car-details h2,
+.car-details h3 {
+  margin: 0;
+  font-weight: bold;
+}
   
   .car-details p {
     margin: 8px 0;
     font-size: 14px;
     color: #555555;
   }
-  
   /* Style the Rent Now and Love React buttons */
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-  }
+.car-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.price {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
   .rent-button,
   .love-button {
