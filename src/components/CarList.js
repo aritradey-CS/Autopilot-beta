@@ -18,10 +18,10 @@ function CarList() {
             </div>
             
           <div className="car-config">
-            <div className="config">Capacity: {car.passengerCapacity}</div>
-            <div className="config">Mileage: {car.mileage}</div>
-            <div className="config">Transmission: {car.transmission}</div>
-            <div className="config">Fuel Type: {car.fuelType}</div>
+            <div className="config"><i class="ri-group-fill"></i> People {car.passengerCapacity}</div>
+            <div className="config"><i class="ri-dashboard-3-fill"></i>  {car.mileage}</div>
+            <div className="config"><i class="ri-steering-2-fill"></i>  {car.transmission}</div>
+            <div className="config"><i class="ri-dashboard-2-fill"></i>  {car.fuelType}</div>
 
           </div>
 
@@ -32,8 +32,7 @@ function CarList() {
               </div>
               <div className="buttons">
                 <button className="rent-button">Rent Now</button>
-                <button className="love-button">
-                  Love React ({car.loveCount})
+                <button className="love-button"><i class="ri-heart-3-fill"></i>({car.loveCount})
                 </button>
               </div>
             </div>

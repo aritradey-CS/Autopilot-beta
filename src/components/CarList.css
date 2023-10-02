@@ -61,23 +61,23 @@
   padding: 5px 10px;
 }
 
-/* Style the Rent Now and Love React buttons */
+/* Style the car footer */
 .car-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.price {
-  font-size: 16px;
-  color: #007bff;
-  margin-bottom: 5px;
-}
-
-.buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Style the price */
+.price {
+  font-size: 16px;
+  color: #007bff;
+}
+
+/* Style the Rent Now and Love React buttons */
+.buttons {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
 }
 
 .rent-button,
@@ -97,10 +97,4 @@
 .love-button {
   background-color: transparent;
   color: #007bff;
-}
-
-/* Style the Love React count */
-.love-count {
-  font-size: 14px;
-  color: #555555;
 }
