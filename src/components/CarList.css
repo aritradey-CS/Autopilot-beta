@@ -46,6 +46,15 @@
   align-items: center;
   justify-content: space-between;
 }
+
+
+.car-header>h3{
+  padding: 2px 5px;
+  border:  rgb(25, 145, 214);
+  border-style:dashed;
+  border-radius: 25%;
+}
+
 .car-details h2,
 .car-details h3 {
   margin: 0;
@@ -64,9 +73,13 @@
 
 /* Style the car footer */
 .car-footer {
+ 
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-style: solid none none none;
+  border-color: rgba(0, 0, 0, 0.219);
+  
 }
 
 /* Style the price */

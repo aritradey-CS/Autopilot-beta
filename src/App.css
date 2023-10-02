@@ -57,7 +57,7 @@ body{
 }
 .ri-search-line:before {
   content: "\f0d1";
-  margin-left: -5vw !important;
+  margin-left: -8vw !important;
 }
 /* Add more styles as needed */
 
@@ -111,7 +111,7 @@ button {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #000000;
-  padding: 5px 10px;
+  padding: 5px 30px;
   cursor: pointer;
   outline: none;
   transition: background-color 0.3s ease;
