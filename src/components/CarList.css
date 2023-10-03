@@ -14,13 +14,13 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  height: 70vh;
+  height: 100%;
   width: 350px;
   margin: 10px;
   cursor: pointer;
 }
 
-/* Add hover effect to car card */
+/* Add hover effect to car card */  
 .car-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
