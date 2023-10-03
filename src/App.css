@@ -5,7 +5,7 @@ body, h1, h2, p {
   
 }
 body{
-  background-color: #007bff52;
+  background-color: #edf1f6;
 }
 
 /* Apply styles to the main container */
@@ -15,8 +15,9 @@ body{
 
 /* Style the navigation bar */
 .navbar {
-  background-color: #007bff52;
+  background-color: #eff2f8;
   color: white;
+  position:sticky;
   display: flex;
   justify-content:flex-start;
   align-items: center;
@@ -40,7 +41,7 @@ body{
   padding: 5px;
   margin-right: 10px;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11),1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11);
 }
 
@@ -125,6 +126,15 @@ button {
   font-size: 20px;
   color: #000000; /* Icon color */
   cursor: pointer;
+}
+/* Style the search icon */
+.ri-search-line {
+  color: #000000;
+  position: absolute; /* Position the icon absolutely within its parent */
+  top: 50%; /* Align it vertically to the middle of the input field */
+  right: 73%; /* Adjust the right position as needed */
+  transform: translateY(-50%); /* Center it vertically */
+  pointer-events: none; /* Make sure the icon doesn't interfere with input events */
 }
 
 /* Apply hover effect to option values */
