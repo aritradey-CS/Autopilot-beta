@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aritradey-CS/Autopilot-beta.git/static/css/main.d58700bf.css",
-    "main.js": "/aritradey-CS/Autopilot-beta.git/static/js/main.a0ac1779.js",
-    "static/js/787.557e9c29.chunk.js": "/aritradey-CS/Autopilot-beta.git/static/js/787.557e9c29.chunk.js",
-    "index.html": "/aritradey-CS/Autopilot-beta.git/index.html",
-    "main.d58700bf.css.map": "/aritradey-CS/Autopilot-beta.git/static/css/main.d58700bf.css.map",
-    "main.a0ac1779.js.map": "/aritradey-CS/Autopilot-beta.git/static/js/main.a0ac1779.js.map",
-    "787.557e9c29.chunk.js.map": "/aritradey-CS/Autopilot-beta.git/static/js/787.557e9c29.chunk.js.map"
+    "main.css": "/aritradey-CS/Autopilot-beta/static/css/main.d58700bf.css",
+    "main.js": "/aritradey-CS/Autopilot-beta/static/js/main.d5e37a1d.js",
+    "static/js/787.557e9c29.chunk.js": "/aritradey-CS/Autopilot-beta/static/js/787.557e9c29.chunk.js",
+    "index.html": "/aritradey-CS/Autopilot-beta/index.html",
+    "main.d58700bf.css.map": "/aritradey-CS/Autopilot-beta/static/css/main.d58700bf.css.map",
+    "main.d5e37a1d.js.map": "/aritradey-CS/Autopilot-beta/static/js/main.d5e37a1d.js.map",
+    "787.557e9c29.chunk.js.map": "/aritradey-CS/Autopilot-beta/static/js/787.557e9c29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d58700bf.css",
-    "static/js/main.a0ac1779.js"
+    "static/js/main.d5e37a1d.js"
   ]
 }
