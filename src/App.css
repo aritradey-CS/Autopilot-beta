@@ -120,7 +120,7 @@ button {
 .dropdown1 i {
   position: absolute;
   top: 50%; /* Vertically center the icon */
-  right: 35px; /* Position to the right side */
+  right: 60px; /* Position to the right side */
   transform: translateY(-50%); /* Adjust vertical positioning */
   font-size: 20px;
   color: #000000; /* Icon color */
@@ -167,4 +167,22 @@ button {
 /* Apply hover effect to option values */
 .dropdown2 select option:hover {
   background-color: #cf0b0b;
+}
+@media (max-width: 768px) {
+  .dropdowns {
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+.dropdown1{
+  margin-left: 10%;
+}
+  .dropdown1,
+  .dropdown2 {
+    margin-right: 0; /* Remove margin between dropdowns */
+    margin-bottom: 10px; /* Add spacing between dropdowns */
+  }
+
+  #category {
+    width: 100%; /* Make the select element full width */
+  }
 }

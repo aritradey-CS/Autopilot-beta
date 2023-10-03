@@ -121,19 +121,22 @@
   transform: scale(1.1); /* Increase the button size on hover */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
-
 .love-button {
   background-color: transparent;
-  color: #007bff;
-  display: flex; /* Add this line to allow margin to work */
-  align-items: center; /* Add this line to vertically center the icon and text */
-  margin-left: 10px; /* Adjust the margin as needed */
+  color: #ff008c;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  transition: color 0.3s; /* Add a transition effect for color change */
+}
+
+.love-button:hover {
+  color: #48e91f; /* Change the color on hover */
 }
 
 .ri-heart-3-fill {
   padding-right: 2px;
   margin-left: 14px;
-  color: #ff008c;
   font-size: 30px;
 }
 
