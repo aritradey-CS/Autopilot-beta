@@ -84,7 +84,7 @@
 /* Style the price */
 .price {
   color: #007bff;
-  margin-right: -35px;
+  margin-right: 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 400;
   font-size: x-large;

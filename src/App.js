@@ -1,46 +1,36 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import CarList from "./components/CarList";
-import Pagination from "./components/Pagination";
+import "./App.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
-import "./App.css";
+import CarList from "./components/CarList";
+import Pagination from "./components/Pagination";
 import carsData from "./components/carsData.json";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const carsPerPage = 6;
   const [currentPage, setCurrentPage] = useState(1);
-
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
   };
-
   const handleNextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
   };
-
   const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
   };
-  
-
   useEffect(() => {
-    // Initialize Locomotive Scroll once the component is mounted
     const locoScroll = new LocomotiveScroll({
       el: document.querySelector("#main"),
       smooth: true,
     });
-
-    // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
-
-    // Enable smooth scrolling and proxy methods
     ScrollTrigger.scrollerProxy("#main", {
       scrollTop(value) {
         return arguments.length
@@ -59,11 +49,7 @@ function App() {
         ? "transform"
         : "fixed",
     });
-
-    // Update Locomotive Scroll when ScrollTrigger refreshes
     ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
-
-    // Refresh ScrollTrigger and Locomotive Scroll
     ScrollTrigger.refresh();
 
     // Clean up Locomotive Scroll when the component unmounts
@@ -84,7 +70,6 @@ function App() {
 
   const currentCars = filteredCars.slice(indexOfFirstCar, indexOfLastCar);
 
-  // Calculate the total number of pages based on filtered data
   const totalPages = Math.ceil(filteredCars.length / carsPerPage);
 
   return (
@@ -104,7 +89,6 @@ function App() {
             </div>
           </div>
 
-        
           <div className="dropdowns">
             <div className="dropdown1">
               <select id="category">
@@ -126,14 +110,10 @@ function App() {
           </div>
         </header>
 
-
-          
-
         <div className="car-list">
           {currentCars.map((val) => (
             <div className="car-card" key={val.id}>
-              
-    <div
+              <div
                 className="car-image"
                 style={{ backgroundImage: `url(${val.image})` }}
               ></div>
