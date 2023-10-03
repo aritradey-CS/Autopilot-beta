@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CarList from "./components/CarList";
-// import CarDetails from "./components/CarDetails";
+import Pagination from "./components/Pagination";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
@@ -10,31 +10,25 @@ import carsData from "./components/carsData.json";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
-
-  // Assuming you want to display 6 cars per page
   const carsPerPage = 6;
-
-  // Initialize the current page state with 1 (assuming you start on the first page)
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Function to handle page change when clicking page numbers
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
   };
 
-  // Function to handle next page click
   const handleNextPage = () => {
     if (currentPage < totalPages) {
       setCurrentPage(currentPage + 1);
     }
   };
 
-  // Function to handle previous page click
-  const handlePreviousPage = () => {
+  const handlePrevPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
   };
+  
 
   useEffect(() => {
     // Initialize Locomotive Scroll once the component is mounted
@@ -78,14 +72,12 @@ function App() {
     };
   }, []);
 
-  // Calculate the index of the first and last car for the current page
   const indexOfLastCar = currentPage * carsPerPage;
   const indexOfFirstCar = indexOfLastCar - carsPerPage;
 
-  // Filter and slice the carsData array to get cars for the current page based on search term
   const filteredCars = carsData.filter((val) => {
     if (searchTerm === "") {
-      return true; // Show all cars if no search term
+      return true;
     }
     return val.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
@@ -109,12 +101,10 @@ function App() {
                   setSearchTerm(event.target.value);
                 }}
               />
-              {/* <button className="search-button" onClick={handleSearchClick}>
-                <i className="ri-search-line"></i>
-              </button> */}
             </div>
           </div>
 
+        
           <div className="dropdowns">
             <div className="dropdown1">
               <select id="category">
@@ -136,10 +126,14 @@ function App() {
           </div>
         </header>
 
+
+          
+
         <div className="car-list">
           {currentCars.map((val) => (
             <div className="car-card" key={val.id}>
-              <div
+              
+    <div
                 className="car-image"
                 style={{ backgroundImage: `url(${val.image})` }}
               ></div>
@@ -176,33 +170,18 @@ function App() {
               </div>
             </div>
           ))}
-
-          <div className="pagination">
-            <button
-              onClick={handlePreviousPage}
-              disabled={currentPage === 1} // Disable the previous button on the first page
-            >
-              <i className="ri-arrow-left-circle-fill"></i>
-            </button>
-            {Array.from({ length: totalPages }, (_, i) => (
-              <button
-                key={i + 1}
-                onClick={() => handlePageChange(i + 1)}
-                className={currentPage === i + 1 ? "active" : ""}
-              >
-                {i + 1}
-              </button>
-            ))}
-            <button
-              onClick={handleNextPage}
-              disabled={currentPage === totalPages} // Disable the next button on the last page
-            >
-              <i className="ri-arrow-right-circle-fill"></i>
-            </button>
-          </div>
         </div>
+
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          handlePageChange={handlePageChange}
+          handleNextPage={handleNextPage}
+          handlePrevPage={handlePrevPage}
+        />
+
         <Router>
-          <div className="App">
+          <div className="Application">
             <Routes>
               <Route exact path="/" element={<CarList />} />
               {/* <Route path="/car/:id" element={<CarDetails />} /> */}
