@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import CarList from "./components/CarList";
-import CarDetails from "./components/CarDetails";
+// import CarDetails from "./components/CarDetails";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
@@ -205,7 +205,7 @@ function App() {
           <div className="App">
             <Routes>
               <Route exact path="/" element={<CarList />} />
-              <Route path="/car/:id" element={<CarDetails />} />
+              {/* <Route path="/car/:id" element={<CarDetails />} /> */}
             </Routes>
           </div>
         </Router>
