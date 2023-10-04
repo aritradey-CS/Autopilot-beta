@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Autopilot-beta/static/css/main.d58700bf.css",
-    "main.js": "/Autopilot-beta/static/js/main.a3d881e5.js",
+    "main.css": "/Autopilot-beta/static/css/main.91132d20.css",
+    "main.js": "/Autopilot-beta/static/js/main.80143ad2.js",
     "static/js/787.557e9c29.chunk.js": "/Autopilot-beta/static/js/787.557e9c29.chunk.js",
     "index.html": "/Autopilot-beta/index.html",
-    "main.d58700bf.css.map": "/Autopilot-beta/static/css/main.d58700bf.css.map",
-    "main.a3d881e5.js.map": "/Autopilot-beta/static/js/main.a3d881e5.js.map",
+    "main.91132d20.css.map": "/Autopilot-beta/static/css/main.91132d20.css.map",
+    "main.80143ad2.js.map": "/Autopilot-beta/static/js/main.80143ad2.js.map",
     "787.557e9c29.chunk.js.map": "/Autopilot-beta/static/js/787.557e9c29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d58700bf.css",
-    "static/js/main.a3d881e5.js"
+    "static/css/main.91132d20.css",
+    "static/js/main.80143ad2.js"
   ]
 }
