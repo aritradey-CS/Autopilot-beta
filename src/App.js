@@ -5,6 +5,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
 import SearchBar from "./components/SearchBar";
+import Dropdowns from "./components/Dropdowns";
 
 import CarList from "./components/CarList";
 import Pagination from "./components/Pagination";
@@ -79,26 +80,7 @@ function App() {
       <div className="main" id="main">
         <header className="navbar">
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-
-          <div className="dropdowns">
-            <div className="dropdown1">
-              <select id="category">
-                <option value="relevance">Relevance</option>
-                <option value="priceLowToHigh">Price Low to High</option>
-                <option value="priceHighToLow">Price High to Low</option>
-              </select>
-              <i className="ri-arrow-drop-down-line"></i>
-            </div>
-            <div className="dropdown2">
-              <select id="brand">
-                <option value="allBrands">All Brands</option>
-                <option value="audi">Audi</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="bmw">BMW</option>
-              </select>
-              <i className="ri-arrow-drop-down-line"></i>
-            </div>
-          </div>
+        <Dropdowns />
         </header>
 
         <div className="car-list">
