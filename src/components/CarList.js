@@ -1,6 +1,6 @@
 import React from "react";
-import carsData from "./carsData.json"; // Make sure to import your car data source
-import "./CarList.css"
+import carsData from "./carsData.json";
+import "./CarList.css";
 
 function CarList({ currentPage, carsPerPage, searchTerm }) {
   const indexOfLastCar = currentPage * carsPerPage;

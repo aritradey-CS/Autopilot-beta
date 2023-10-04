@@ -1,4 +1,3 @@
-// src/components/CarCard.js
 import React from "react";
 
 function CarCard({ car }) {
@@ -6,7 +5,6 @@ function CarCard({ car }) {
     <div className="car-card">
       <img src={car.image} alt={car.name} />
       <h2>{car.name}</h2>
-      {/* Add more car details here */}
     </div>
   );
 }

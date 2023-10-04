@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Pagination({
   currentPage,
@@ -9,10 +9,7 @@ function Pagination({
 }) {
   return (
     <div className="pagination">
-      <button
-        onClick={handlePrevPage}
-        disabled={currentPage === 1}
-      >
+      <button onClick={handlePrevPage} disabled={currentPage === 1}>
         <i className="ri-arrow-left-circle-fill"></i>
       </button>
       {Array.from({ length: totalPages }, (_, i) => (
@@ -24,10 +21,7 @@ function Pagination({
           {i + 1}
         </button>
       ))}
-      <button
-        onClick={handleNextPage}
-        disabled={currentPage === totalPages}
-      >
+      <button onClick={handleNextPage} disabled={currentPage === totalPages}>
         <i className="ri-arrow-right-circle-fill"></i>
       </button>
     </div>

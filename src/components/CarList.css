@@ -23,7 +23,7 @@
 .car-image {
   height: 200px;
   border-radius: 5%;
-  
+
   background-size: cover;
   background-position: center;
   margin: 2vh 2vh;
@@ -36,10 +36,10 @@
   align-items: center;
   justify-content: space-between;
 }
-.car-header>h3{
+.car-header > h3 {
   padding: 2px 5px;
-  border:  rgb(25, 145, 214);
-  border-style:dashed;
+  border: rgb(25, 145, 214);
+  border-style: dashed;
   border-radius: 25%;
 }
 .car-details h2,
@@ -49,9 +49,9 @@
 }
 .car-config {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-gap: 5px; 
-  padding: 10px 0; 
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding: 10px 0;
 }
 .config {
   padding: 5px 10px;
@@ -62,22 +62,22 @@
   align-items: center;
   border-style: solid none none none;
   border-color: rgba(0, 0, 0, 0.219);
-  padding-top: 25px; 
+  padding-top: 25px;
 }
 .price {
   color: #007bff;
   margin-right: 0px;
-  font-family: 'Gill Sans';
+  font-family: "Gill Sans";
   font-weight: 400;
   font-size: x-large;
-  margin-top: 0; 
+  margin-top: 0;
 }
 .buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px; 
-  margin-top: 0; 
+  gap: 10px;
+  margin-top: 0;
 }
 .rent-button,
 .love-button {
@@ -95,7 +95,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .rent-button:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .love-button {
@@ -104,10 +104,10 @@
   display: flex;
   align-items: center;
   margin-left: 2px;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 .love-button:hover {
-  color: #48e91f; 
+  color: #48e91f;
 }
 .ri-heart-3-fill {
   padding-right: 2px;
@@ -145,7 +145,7 @@
   opacity: 0.5;
 }
 .pagination button i {
-  font-size: 40px; 
+  font-size: 40px;
 }
 .pagination button:hover {
   background-color: #007bff;

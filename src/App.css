@@ -76,9 +76,9 @@ button {
   align-items: center;
 }
 .dropdown1 {
-  position: relative; 
-  display: inline-block; 
-  margin-right: 20px; 
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
 }
 .dropdown1 select {
   appearance: none;
@@ -94,29 +94,29 @@ button {
 }
 .dropdown1 i {
   position: absolute;
-  top: 50%; 
-  right: 60px; 
-  transform: translateY(-50%); 
+  top: 50%;
+  right: 60px;
+  transform: translateY(-50%);
   font-size: 20px;
-  color: #000000; 
+  color: #000000;
   cursor: pointer;
 }
 .ri-search-line {
   color: #000000;
-  position: absolute; 
-  top: 50%; 
-  right: 73%; 
-  transform: translateY(-50%); 
-  pointer-events: none; 
+  position: absolute;
+  top: 50%;
+  right: 73%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 .dropdown select option:hover {
   background-color: #cf0b0b;
 }
 .dropdown2 {
-  position: relative; 
-  display: inline-block; 
+  position: relative;
+  display: inline-block;
   left: 35%;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 .dropdown2 select {
   appearance: none;
@@ -132,11 +132,11 @@ button {
 }
 .dropdown2 i {
   position: absolute;
-  top: 50%; 
-  right: -15px; 
-  transform: translateY(-50%); 
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
   font-size: 20px;
-  color: #000000; 
+  color: #000000;
   cursor: pointer;
 }
 .dropdown2 select option:hover {
@@ -144,18 +144,18 @@ button {
 }
 @media (max-width: 768px) {
   .dropdowns {
-    flex-direction: row; 
-    align-items: flex-start; 
+    flex-direction: row;
+    align-items: flex-start;
   }
   .dropdown1 {
     margin-left: 10%;
   }
   .dropdown1,
   .dropdown2 {
-    margin-right: 0; 
-    margin-bottom: 10px; 
+    margin-right: 0;
+    margin-bottom: 10px;
   }
   #category {
-    width: 100%; 
+    width: 100%;
   }
 }

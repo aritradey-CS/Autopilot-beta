@@ -73,12 +73,14 @@ function App() {
     <div className="App">
       <div className="main" id="main">
         <header className="navbar">
-        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-        <Dropdowns />
+          <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          <Dropdowns />
         </header>
-
-        <CarList currentPage={currentPage} carsPerPage={carsPerPage} searchTerm={searchTerm} />
-
+        <CarList
+          currentPage={currentPage}
+          carsPerPage={carsPerPage}
+          searchTerm={searchTerm}
+        />
         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}
@@ -86,12 +88,10 @@ function App() {
           handleNextPage={handleNextPage}
           handlePrevPage={handlePrevPage}
         />
-
         <Router>
           <div className="Application">
             <Routes>
               <Route exact path="/" element={<CarList />} />
-              {/* <Route path="/car/:id" element={<CarDetails />} /> */}
             </Routes>
           </div>
         </Router>
