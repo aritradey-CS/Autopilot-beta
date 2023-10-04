@@ -2,12 +2,11 @@ import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
-import LocomotiveScroll from "locomotive-scroll";
+import CarList from "./components/CarList";
 import SearchBar from "./components/SearchBar";
 import Dropdowns from "./components/Dropdowns";
-
-import CarList from "./components/CarList";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import LocomotiveScroll from "locomotive-scroll";
 import Pagination from "./components/Pagination";
 import carsData from "./components/carsData.json";
 
@@ -61,17 +60,12 @@ function App() {
     };
   }, []);
 
-  const indexOfLastCar = currentPage * carsPerPage;
-  const indexOfFirstCar = indexOfLastCar - carsPerPage;
-
   const filteredCars = carsData.filter((val) => {
     if (searchTerm === "") {
       return true;
     }
     return val.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
-
-  const currentCars = filteredCars.slice(indexOfFirstCar, indexOfLastCar);
 
   const totalPages = Math.ceil(filteredCars.length / carsPerPage);
 
@@ -83,47 +77,7 @@ function App() {
         <Dropdowns />
         </header>
 
-        <div className="car-list">
-          {currentCars.map((val) => (
-            <div className="car-card" key={val.id}>
-              <div
-                className="car-image"
-                style={{ backgroundImage: `url(${val.image})` }}
-              ></div>
-
-              <div className="car-details">
-                <div className="car-header">
-                  <h2>{val.name}</h2>
-                  <h3>{val.year}</h3>
-                </div>
-                <div className="car-config">
-                  <div className="config">
-                    <i className="ri-group-fill"></i> People{" "}
-                    {val.passengerCapacity}
-                  </div>
-                  <div className="config">
-                    <i className="ri-dashboard-3-fill"></i> {val.mileage}
-                  </div>
-                  <div className="config">
-                    <i className="ri-steering-2-fill"></i> {val.transmission}
-                  </div>
-                  <div className="config">
-                    <i className="ri-dashboard-2-fill"></i> {val.fuelType}
-                  </div>
-                </div>
-                <div className="car-footer">
-                  <div className="price">{val.pricePerMonth} / month</div>
-                  <div className="buttons">
-                    <button className="rent-button">Rent Now</button>
-                    <button className="love-button">
-                      <i className="ri-heart-3-fill"></i> ({val.loveCount})
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <CarList currentPage={currentPage} carsPerPage={carsPerPage} searchTerm={searchTerm} />
 
         <Pagination
           currentPage={currentPage}
