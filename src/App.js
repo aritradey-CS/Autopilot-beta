@@ -4,6 +4,8 @@ import "./App.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import LocomotiveScroll from "locomotive-scroll";
+import SearchBar from "./components/SearchBar";
+
 import CarList from "./components/CarList";
 import Pagination from "./components/Pagination";
 import carsData from "./components/carsData.json";
@@ -76,19 +78,7 @@ function App() {
     <div className="App">
       <div className="main" id="main">
         <header className="navbar">
-          <div className="search-section">
-            <div className="search-input-container">
-              <input
-                id="searchInput"
-                type="text"
-                placeholder="Search here..."
-                onChange={(event) => {
-                  setSearchTerm(event.target.value);
-                }}
-              />
-              <i className="ri-search-line"></i>
-            </div>
-          </div>
+        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
           <div className="dropdowns">
             <div className="dropdown1">
