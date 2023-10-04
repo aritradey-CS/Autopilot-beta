@@ -1,6 +1,4 @@
-// import React, { useState   } from "react";
-import "./CarList.css"; // Import your CSS file for styling
-// import carsData from "./carsData.json";
+import "./CarList.css";
 
 function CarList() {
   return <div className="car-list"></div>;

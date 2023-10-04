@@ -86,7 +86,7 @@ function App() {
                   setSearchTerm(event.target.value);
                 }}
               />
-                <i className="ri-search-line"></i>
+              <i className="ri-search-line"></i>
             </div>
           </div>
 

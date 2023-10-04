@@ -1,40 +1,33 @@
-/* Reset some default styles for consistency */
-body, h1, h2, p {
+body,
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
-  
 }
-body{
+body {
   background-color: #edf1f6;
 }
-
-/* Apply styles to the main container */
 .App {
   font-family: Arial, sans-serif;
 }
-
-/* Style the navigation bar */
 .navbar {
   background-color: #eff2f8;
   color: white;
-  position:sticky;
+  position: sticky;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   border-radius: 2vh 2vh;
   padding: 10px 20px;
   margin: 10px 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11),
-  0 2px 4px rgba(0, 0, 0, 0.39);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11), 0 2px 4px rgba(0, 0, 0, 0.39);
 }
-/* Increase the width of the search input container */
 .search-input-container {
   display: flex;
   align-items: center;
   width: 30vw; /* Adjust width as needed */
 }
-
-/* Style the search input */
 .search-input-container input[type="text"] {
   height: 4vh;
   flex-grow: 1; /* Allow the input to grow and take available space */
@@ -42,45 +35,34 @@ body{
   margin-right: 10px;
   border: 1px solid #ccc;
   border-radius: 15px;
-  box-shadow: 1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11),1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11);
+  box-shadow: 1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11),
+    1px 2px 4px rgba(0.45, 0.66, 0.35, 0.11);
 }
-
-/* Add styles for the search button and icon */
 .search-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-
 }
-
-
 .search-button i {
-    font-size: 20px;
+  font-size: 20px;
   color: #007bff;
 }
 .ri-search-line:before {
   content: "\f0d1";
   margin-left: -8vw !important;
 }
-
 .search-section {
   display: flex;
   align-items: center;
   width: 20vw;
 }
 
-
-
-
-/* Style the search input */
 input[type="text"] {
   padding: 5px;
   margin-right: 10px;
   border: 1px solid #ccc;
   border-radius: 10px;
 }
-
-/* Style the search button */
 button {
   background-color: #007bff;
   color: white;
@@ -89,21 +71,15 @@ button {
   padding: 5px 10px;
   cursor: pointer;
 }
-
-/* Style the dropdown containers */
 .dropdowns {
   display: flex;
   align-items: center;
 }
-
-/* Style the individual dropdowns */
 .dropdown1 {
-  position: relative; /* To create a stacking context for z-index */
-  display: inline-block; /* Display as inline block to allow elements to be side by side */
-  margin-right: 20px; /* Add some spacing between dropdowns */
+  position: relative; 
+  display: inline-block; 
+  margin-right: 20px; 
 }
-
-/* Style the select element */
 .dropdown1 select {
   appearance: none;
   background-color: transparent;
@@ -116,40 +92,32 @@ button {
   outline: none;
   transition: background-color 0.3s ease;
 }
-
-/* Style the arrow icon */
 .dropdown1 i {
   position: absolute;
-  top: 50%; /* Vertically center the icon */
-  right: 60px; /* Position to the right side */
-  transform: translateY(-50%); /* Adjust vertical positioning */
+  top: 50%; 
+  right: 60px; 
+  transform: translateY(-50%); 
   font-size: 20px;
-  color: #000000; /* Icon color */
+  color: #000000; 
   cursor: pointer;
 }
-/* Style the search icon */
 .ri-search-line {
   color: #000000;
-  position: absolute; /* Position the icon absolutely within its parent */
-  top: 50%; /* Align it vertically to the middle of the input field */
-  right: 73%; /* Adjust the right position as needed */
-  transform: translateY(-50%); /* Center it vertically */
-  pointer-events: none; /* Make sure the icon doesn't interfere with input events */
+  position: absolute; 
+  top: 50%; 
+  right: 73%; 
+  transform: translateY(-50%); 
+  pointer-events: none; 
 }
-
-/* Apply hover effect to option values */
 .dropdown select option:hover {
   background-color: #cf0b0b;
 }
-/* Style the individual dropdowns */
 .dropdown2 {
-  position: relative; /* To create a stacking context for z-index */
-  display: inline-block; /* Display as inline block to allow elements to be side by side */
- left: 35%; 
-  margin-right: 20px; /* Add some spacing between dropdowns */
+  position: relative; 
+  display: inline-block; 
+  left: 35%;
+  margin-right: 20px; 
 }
-
-/* Style the select element */
 .dropdown2 select {
   appearance: none;
   background-color: transparent;
@@ -162,37 +130,32 @@ button {
   outline: none;
   transition: background-color 0.3s ease;
 }
-
-/* Style the arrow icon */
 .dropdown2 i {
   position: absolute;
-  top: 50%; /* Vertically center the icon */
-  right: -15px; /* Position to the right side */
-  transform: translateY(-50%); /* Adjust vertical positioning */
+  top: 50%; 
+  right: -15px; 
+  transform: translateY(-50%); 
   font-size: 20px;
-  color: #000000; /* Icon color */
+  color: #000000; 
   cursor: pointer;
 }
-
-/* Apply hover effect to option values */
 .dropdown2 select option:hover {
   background-color: #cf0b0b;
 }
 @media (max-width: 768px) {
   .dropdowns {
-    flex-direction: row; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: row; 
+    align-items: flex-start; 
   }
-.dropdown1{
-  margin-left: 10%;
-}
+  .dropdown1 {
+    margin-left: 10%;
+  }
   .dropdown1,
   .dropdown2 {
-    margin-right: 0; /* Remove margin between dropdowns */
-    margin-bottom: 10px; /* Add spacing between dropdowns */
+    margin-right: 0; 
+    margin-bottom: 10px; 
   }
-
   #category {
-    width: 100%; /* Make the select element full width */
+    width: 100%; 
   }
 }
